@@ -7,8 +7,8 @@ upper_hsv = np.array([30, 255, 255])
 
 
 # real images
-# lower_hsv = np.array([12, 89, 76])
-# upper_hsv = np.array([31, 255, 255])
+lower_hsv = np.array([0, 45, 100])
+upper_hsv = np.array([40, 255, 255])
 
 
 def preprocess(image_rgb: np.ndarray) -> np.ndarray:
